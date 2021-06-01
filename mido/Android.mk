@@ -21,10 +21,10 @@ ifeq ($(TARGET_DEVICE),mido)
 include $(CLEAR_VARS)
 LOCAL_MODULE := WfdService
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := "proprietary/priv-app/WfdService/WfdService.apk"
+LOCAL_SRC_FILES := proprietary/priv-app/WfdService/WfdService.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := "platform"
+LOCAL_CERTIFICATE := platform
 LOCAL_DEX_PREOPT := false
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
@@ -32,10 +32,10 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := CneApp
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := "proprietary/vendor/app/CneApp/CneApp.apk"
+LOCAL_SRC_FILES := proprietary/vendor/app/CneApp/CneApp.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := "platform"
+LOCAL_CERTIFICATE := platform
 LOCAL_DEX_PREOPT := false
 LOCAL_PRIVILEGED_MODULE := false
 include $(BUILD_PREBUILT)
@@ -43,10 +43,10 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := IWlanService
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := "proprietary/vendor/app/IWlanService/IWlanService.apk"
+LOCAL_SRC_FILES := proprietary/vendor/app/IWlanService/IWlanService.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := "platform"
+LOCAL_CERTIFICATE := platform
 LOCAL_DEX_PREOPT := false
 LOCAL_PRIVILEGED_MODULE := false
 include $(BUILD_PREBUILT)
@@ -54,10 +54,10 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := "proprietary/vendor/app/TimeService/TimeService.apk"
+LOCAL_SRC_FILES := proprietary/vendor/app/TimeService/TimeService.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := "platform"
+LOCAL_CERTIFICATE := platform
 LOCAL_DEX_PREOPT := false
 LOCAL_PRIVILEGED_MODULE := false
 include $(BUILD_PREBUILT)
@@ -65,10 +65,10 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTelephonyService
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := "proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk"
+LOCAL_SRC_FILES := proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := "platform"
+LOCAL_CERTIFICATE := platform
 LOCAL_DEX_PREOPT := false
 LOCAL_PRIVILEGED_MODULE := false
 include $(BUILD_PREBUILT)
@@ -76,10 +76,10 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := PowerOffAlarm
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk"
+LOCAL_SRC_FILES := proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := "platform"
+LOCAL_CERTIFICATE := platform
 LOCAL_DEX_PREOPT := false
 LOCAL_PRIVILEGED_MODULE := false
 include $(BUILD_PREBUILT)
@@ -87,10 +87,10 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := dpmserviceapp
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := "proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk"
+LOCAL_SRC_FILES := proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := "platform"
+LOCAL_CERTIFICATE := platform
 LOCAL_DEX_PREOPT := false
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
@@ -99,10 +99,10 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := ims
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := "proprietary/product/priv-app/ims/ims.apk"
+LOCAL_SRC_FILES := proprietary/product/priv-app/ims/ims.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := "platform"
+LOCAL_CERTIFICATE := platform
 LOCAL_DEX_PREOPT := false
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
@@ -110,10 +110,10 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := "proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk"
+LOCAL_SRC_FILES := proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := "platform"
+LOCAL_CERTIFICATE := platform
 LOCAL_DEX_PREOPT := false
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
